@@ -27,24 +27,24 @@ void loop() {
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
     digitalWrite(11, LOW);
-    delay(3000);
+    delay(2000);
     digitalWrite(8, HIGH);
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
     digitalWrite(11, HIGH);
-    delay(1000);
+    delay(500);
     }
   if (y == LOW) {
     digitalWrite(8, HIGH);
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
     digitalWrite(11, LOW);
-    delay(3000);
+    delay(2000);
     digitalWrite(8,LOW);
     digitalWrite(9,HIGH);
     digitalWrite(10,HIGH);
     digitalWrite(11,LOW);
-    delay(1000);
+    delay(500);
   }
 }
 
